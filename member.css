@@ -1,0 +1,175 @@
+h1 {
+    font-size: 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    position: absolute;
+    top:120px;
+    left:700px;
+  }
+  h2 {
+    position:relative;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 10px;
+    top:200px;
+  }
+  h3 {
+    position:relative;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:-260px;
+    left: 700px;
+  }
+  h5 {
+    position:relative;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 10px;
+    top:0px;
+  }
+  .start {
+    position: absolute;
+    display: grid;
+    font-size: 15px;
+    grid-template-columns: 30% 40% 40% 40% 40%;
+    left: 400px;
+    top: 50px;
+    color: blue;
+  }
+  .start a:link {
+    color: blue;
+    display: block;
+    padding: 8px;
+  }
+  .start a:hover {
+    background: lightblue;
+  }
+  .filter {
+    position: absolute;
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: 30% 30% 30% 30%;
+    left: 300px;
+    top: 300px;
+    color: black;
+  }
+  .filter a:link {
+    color: blue;
+    display: block;
+    padding: 8px;
+  }
+  .filter a:hover {
+    background: lightblue;
+  }
+  p {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .first{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    position: relative;
+    left: 300px;
+    top: 310px;
+    color: black;
+  }
+  .third {
+    position: absolute;
+    display: grid;
+    font-size: 15px;
+    grid-template-columns: 30%;
+    left: 100px;
+    top: 300px;
+    color: black;
+  }
+  .third a:link {
+    color: blue;
+    display: block;
+    padding: 8px;
+  }
+  .third a:hover {
+    background: lightblue;
+  }
+  .fifth{
+    position: relative;
+    display: grid;
+    font-size: 10px;
+    grid-template-columns: 20%;
+    left: 10px;
+    top: 200px;
+    color: black;
+  }
+  .sixth {
+    display: grid;
+    font-size: 10px;
+    grid-template-columns: 20%;
+    position:relative;
+    top:-260px;
+    left: 700px;
+  }
+  .logo {
+    position: absolute;
+    width: 250px;
+    top: 0px;
+  }
+  .button {
+    background-color: lightblue;
+    font-size: 18px;
+  }
+  body {
+    background-color: gainsboro;
+  }
+  .spacer {
+    position: absolute;
+    bottom: 0px;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 50% 75%;
+    justify-self: end;
+    align-self: end;
+    position: absolute;
+    bottom: -200px;
+  }
+  .content a:link {
+    color: blue;
+    display: block;
+    padding: 8px;
+  }
+  .content a:hover {
+    background: lightblue;
+  }
+  .dataItem {
+    color: blue;
+    font-size: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:200px;
+  }
+  .comment{
+    position:relative;
+    top:250px;
+    left: 900px;
+  }
+  .shipping{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:200px;
+    left: 20px;
+  }
+  .create {
+    position: absolute;
+    top:500px;
+    right:200px;
+  }
+  .footer {
+    border-top: 1px solid #dddddd;
+    position: relative;
+    height: 100px;
+    margin-top: 700px;
+    clear: both;
+    text-align: center;
+  }
+  

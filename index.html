@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow App</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <ul class="start">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="semester.html">Semester</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </div>
+    <div>
+    <h1 Align="center">Shadow App</h1>
+    <br>
+    </div>
+    <section>
+        <article class="first">
+            <h2>Make tracking easier. Be ready to comit and observe yourself.</h2>
+
+        </article>
+        <article class="second">
+        <h3>First of Its kind</h3>
+        </article>
+    </section>
+    <section>
+        <img class="third" src="img/backpack.jpg" alt="">
+        <img class="logo" src="img/logo.jpg" alt="">
+    </section>
+
+    <section>
+        <article class="fourth">
+            <form onsubmit="return validate()" action="main.html" method="GET">
+                <div>
+                <label for="user_name"><b>Username</b></label>
+                <input type="text" id="user_name" placeholder="Enter Username" name="user_name" required>
+                </div>
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+                <div>
+                    <button class="button" type="submit" id="submit">Login</button>
+                </div>
+                <div>
+                    <label for="acknowledge">Save Password:</label>
+                    <input type="checkbox" name="save" id="save">
+                </div>
+                <br>
+                <div>
+                    <a href="member.html">Not a Member Yet?</a>
+                </div>
+            </form>
+        </article>
+    </section>
+    <br>
+    <br>
+
+    </div>
+    <br>
+    <script src="store.js"></script>
+</body>
+<br>
+
+<div class="footer">
+    <div class="container">
+        <p class="text-muted">Copyright Shadow App</p>
+    </div>
+</div>
+</html>
