@@ -109,7 +109,7 @@ h1 {
   }
   .logo {
     position: absolute;
-    width: 250px;
+    width: 100px;
     top: 0px;
   }
   .button {
@@ -120,8 +120,8 @@ h1 {
     background-color: gainsboro;
   }
   .spacer {
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: -1200px;
   }
   .content {
     display: grid;
@@ -159,16 +159,137 @@ h1 {
     top:200px;
     left: 20px;
   }
+  .semester{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:300px;
+    left: 20px;
+  }
+  .fill{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:200px;
+    left: 20px;
+  }
+  .objective{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:220px;
+    left: 20px;
+    width:50px;
+  }
+  .biography{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:220px;
+    left: 1200px;
+    width:50px;
+  }
+  .education{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:300px;
+    left: 20px;
+    width:50px;
+  }
+  .career{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:300px;
+    left: 20px;
+    width:50px;
+  }
+  .skillset{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:400px;
+    left: 20px;
+    width:50px;
+  }
+  .sports{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:1100px;
+    left: 20px;
+    width:50px;
+  }
+  .hobbies{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:1100px;
+    left: 500px;
+    width:50px;
+  }
+  .interests{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:1100px;
+    left: 1000px;
+    width:50px;
+  }
+  .work{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:1600px;
+    left: 20px;
+    width:50px;
+  }
+  .certificates{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:1500px;
+    left: 20px;
+    width:50px;
+  }
+  .term {
+    position: absolute;
+    top:200px;
+    left:20px;
+  }
+  .year {
+    position: absolute;
+    top:250px;
+    left:20px;
+  }
   .create {
     position: absolute;
     top:500px;
     right:200px;
   }
+  .save {
+    position: absolute;
+    top:500px;
+    left:200px;
+  }
   .footer {
     border-top: 1px solid #dddddd;
     position: relative;
-    height: 100px;
-    margin-top: 700px;
+    height: 300px;
+    margin-top: 1600px;
     clear: both;
     text-align: center;
   }
